@@ -37,7 +37,7 @@ public class Main {
     }
 
     public static void validateUser(User user) throws AccessDeniedException {
-        if (user.getAge() < 18) {
+        if (user.getAge() < 19) {
             throw new AccessDeniedException();
         }
     }
